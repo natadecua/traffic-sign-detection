@@ -11,6 +11,14 @@ Based on the paper: *Traffic Sign Detection System using Convolutional Neural Ne
 *   **Contour Detection:** Identifies potential sign regions using OpenCV's `findContours`.
 *   **CNN Classification:** Employs a trained Keras CNN model (`.h5` file) to classify detected regions into predefined sign categories (Stop, Ped Xing, Parking).
 *   **Visual Feedback:** Displays the live feed with bounding boxes and predicted labels (including confidence score) drawn around detected signs.
+## Screenshots
+
+![Traffic Sign](screenshots/demo1.png)
+![Traffic Sign](screenshots/demo2.png)
+![Traffic Sign](screenshots/demo3.png)
+
+
+
 
 ## Technology Stack
 
