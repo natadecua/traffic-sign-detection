@@ -1,0 +1,3 @@
+tensorflow>=2.8.0 # Or your specific TF version
+opencv-python>=4.5.0 # Or your specific OpenCV version
+numpy>=1.19.0

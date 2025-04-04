@@ -1,0 +1,29 @@
+# Python cache and virtual environments
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+venv/
+env/
+*.venv
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDE specific files
+.idea/
+.vscode/
+
+# Dataset files (we don't commit the actual images)
+dataset/*
+!dataset/.gitkeep
+
+# Model files (we don't commit the large model file)
+models/*.h5
+!models/.gitkeep
+
+# Log files or temporary outputs (if any)
+*.log
+*.tmp
